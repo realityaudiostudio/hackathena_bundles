@@ -1,0 +1,123 @@
+.addbtn{
+    display: flex;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77); 
+    border: none;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mt-4{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0px 4px 24.7px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4.1px);
+    align-items: center;
+   margin-bottom: 30px;
+}
+
+.w-full{
+    width: 369px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #05050A;
+    color: rgba(0, 0, 0, 0.43);
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.p-4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-group button{
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    width: 70px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+
+
+/* Hide the default file input */
+.w-image {
+    display: none;
+    
+  }
+  
+  /* Custom file upload button */
+  .file-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 90px;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+  }
+  
+  .file-label:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  /* Show selected file name */
+  .file-name {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+ .mt-6{
+    margin-top: 30px;
+    margin-bottom: 120px;
+
+  }

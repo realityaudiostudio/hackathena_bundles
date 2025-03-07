@@ -1,0 +1,107 @@
+.Footer {
+    padding: 30px 0;
+    padding-bottom: 0;
+    text-align: center;
+    
+  }
+  
+  .Footer img {
+    height: 50px;
+    
+  }
+  
+  .Footer main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 0 40px;
+  }
+  
+  .Footer .contact,
+  .Footer .map {
+    flex: 1 1 50%;
+    
+  }
+  
+  .Footer .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 0 20px;
+    
+  }
+  
+  .Footer .contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Footer .contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .Footer .contact ul li {
+    margin-bottom: 8px;
+  }
+  
+  .Footer .contact ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .Footer .contact ul li a:hover {
+    color: #BA0403;
+  }
+  
+  .Footer .map {
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .Footer .links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 2px solid white;
+  }
+  
+  .Footer .links a {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .Footer .links a:hover {
+    color: #cccccc;
+  }
+  
+  .Footer .links svg,
+  .Footer .links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .Footer .links .custom-icon {
+    width: auto;
+    height: 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .Footer main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Footer .contact,
+    .Footer .map {
+      padding: 20px 0;
+    }
+  }
+  

@@ -1,0 +1,7 @@
+{
+    "routes": [
+      { "src": "/OneSignalSDKWorker.js", "dest": "/public/OneSignalSDKWorker.js" },
+      { "src": "/OneSignalSDK.sw.js", "dest": "/public/OneSignalSDK.sw.js" }
+    ]
+  }
+  

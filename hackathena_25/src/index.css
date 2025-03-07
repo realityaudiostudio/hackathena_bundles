@@ -1,0 +1,182 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Nico Moji';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('/fonts/nico-moji.eot') format('embedded-opentype'),
+        url('/fonts/nico-moji.woff') format('woff');
+}
+
+/* Fonts */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-background: #ffffff;
+    --primary-text: #05050a;
+    --primary-accent: #ba0403;
+    --border-w: 0.3em;
+    --cut: 1.35em;
+    --tn-card-b: 0.1em;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-background);
+    color: var(--primary-text);
+    position: relative;
+    overflow-x: hidden;
+}
+
+.nico-moji {
+    font-family: 'Nico Moji', sans-serif;
+}
+
+.q-card {
+    padding: 24px;
+    border: var(--border-w) solid #ba0403;
+    border-image: linear-gradient(15deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%);
+    border-image-slice: 1;
+    background: #ffffff;
+}
+
+.q-card-0,
+.q-card-1 {
+    position: relative;
+    padding: 26px;
+    isolation: isolate;
+    z-index: 0;
+    background: #ba0403;
+    background: linear-gradient(15deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%);
+}
+
+.q-card-0 {
+    clip-path: polygon(var(--cut) 0%, 100% 0, 100% 100%, 0 100%, 0% var(--cut));
+}
+
+.q-card-1 {
+    clip-path: polygon(100% 0,
+            100% calc(100% - var(--cut)),
+            calc(100% - var(--cut)) 100%,
+            0 100%,
+            0 0);
+}
+
+.q-card-0::after,
+.q-card-1::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #ffffff;
+    z-index: -1;
+}
+
+.q-card-0::after {
+    clip-path: polygon(calc(var(--cut) + (var(--border-w) * 0.45)) var(--border-w),
+            calc(100% - var(--border-w)) var(--border-w),
+            calc(100% - var(--border-w)) calc(100% - var(--border-w)),
+            var(--border-w) calc(100% - var(--border-w)),
+            var(--border-w) calc(var(--cut) + (var(--border-w) * 0.45)));
+}
+
+.q-card-1::after {
+    clip-path: polygon(calc(100% - var(--border-w)) var(--border-w),
+            calc(100% - var(--border-w)) calc(100% - calc(var(--cut) + (var(--border-w) * 0.45))),
+            calc(100% - calc(var(--cut) + (var(--border-w) * 0.45))) calc(100% - var(--border-w)),
+            var(--border-w) calc(100% - var(--border-w)),
+            var(--border-w) var(--border-w));
+}
+
+.tn-card {
+    width: 100%;
+    min-width: 250px;
+    max-width: 310px;
+    padding: 24px;
+    border: var(--tn-card-b) solid #ba0403;
+    background: #101010;
+    /* border-image: linear-gradient(15deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%);
+    border-image-slice: 1; */
+}
+
+.tn-card-0,
+.tn-card-1 {
+    width: 100%;
+    min-width: 250px;
+    max-width: 310px;
+    position: relative;
+    padding: 26px;
+    isolation: isolate;
+    z-index: 0;
+    background: #ba0403;
+    /* background: linear-gradient(15deg, rgba(186, 4, 3, 1) 0%, rgba(16, 16, 16, 1) 90%); */
+}
+
+.tn-card-0 {
+    clip-path: polygon(var(--cut) 0%, 100% 0, 100% 100%, 0 100%, 0% var(--cut));
+}
+
+.tn-card-1 {
+    clip-path: polygon(100% 0,
+            100% calc(100% - var(--cut)),
+            calc(100% - var(--cut)) 100%,
+            0 100%,
+            0 0);
+}
+
+.tn-card-0::after,
+.tn-card-1::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #101010;
+    z-index: -1;
+}
+
+.tn-card-0::after {
+    clip-path: polygon(calc(var(--cut) + (var(--tn-card-b) * 0.45)) var(--tn-card-b),
+            calc(100% - var(--tn-card-b)) var(--tn-card-b),
+            calc(100% - var(--tn-card-b)) calc(100% - var(--tn-card-b)),
+            var(--tn-card-b) calc(100% - var(--tn-card-b)),
+            var(--tn-card-b) calc(var(--cut) + (var(--tn-card-b) * 0.45)));
+}
+
+.tn-card-1::after {
+    clip-path: polygon(calc(100% - var(--tn-card-b)) var(--tn-card-b),
+            calc(100% - var(--tn-card-b)) calc(100% - calc(var(--cut) + (var(--tn-card-b) * 0.45))),
+            calc(100% - calc(var(--cut) + (var(--tn-card-b) * 0.45))) calc(100% - var(--tn-card-b)),
+            var(--tn-card-b) calc(100% - var(--tn-card-b)),
+            var(--tn-card-b) var(--tn-card-b));
+}
+
+@media screen and (max-width: 640px) {
+    :root {
+        --border-w: 0.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .q-card-0,
+    .q-card-1 {
+        padding: 20px;
+    }
+
+    .q-card {
+        padding: 16px;
+    }
+}

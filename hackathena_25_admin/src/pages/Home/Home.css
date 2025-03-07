@@ -1,0 +1,97 @@
+.panels{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-bottom: 80px;
+}
+
+.adddiv{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+.Addbtn{
+    display: flex;
+    width: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77); 
+    border: none;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form {
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0px 4px 24.7px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4.1px);
+
+    /* Smooth Transition Setup */
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;  /* Ensures smooth scaling from top */
+    height: 0;
+    overflow: hidden;
+    transition: 
+        opacity 0.4s ease-in-out, 
+        transform 0.4s ease-in-out, 
+        height 0.4s ease-in-out;
+}
+
+/* When form is visible */
+.form.show {
+    opacity: 1;
+    transform: scaleY(1);
+    height: auto;  /* Expands naturally */
+}
+
+.form input{
+    width: 369px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #05050A;
+    color: rgba(0, 0, 0, 0.43);
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.btngrp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btngrp button{
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    width: 70px;
+    height: 30px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}

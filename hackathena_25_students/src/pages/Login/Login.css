@@ -1,0 +1,129 @@
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 113px;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 48px;
+    height: 32px;
+    
+    
+}
+
+.squid{
+    margin-top:96px ;
+    width: 247px;
+    height: 88px;
+    align-self: center;
+    margin-bottom: 96px;
+    
+}
+
+.loginHead{
+    color: #000;
+    font-family: "Titillium Web";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    
+}
+
+.loginP{
+    color: #000;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom:28px;
+}
+.inputSection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 19px ;
+
+}
+.inputSection input{
+    width: 350px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #05050A;
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0px 13px 0px 13px;
+}
+
+.inputSection input::placeholder {
+    color: gray;
+
+  }
+  
+
+  
+
+
+.loginButton1{
+    border: none;
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.loginButton2{
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background: #FFF;
+    color: #BA0403;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.loginButtons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 29px;
+}
+.squidgame{
+    width: 115px;
+    height: 119px;
+    flex-shrink: 0;
+    align-self: center;
+    justify-content: end;
+  
+}
+
+.logintop{
+    display: flex;
+    flex-direction: column;
+}
+
+.ltitle{
+    align-self:flex-start;
+    margin-left: 20px;
+}

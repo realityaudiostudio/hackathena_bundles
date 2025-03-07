@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hackathena 25</title>
+        <style>
+            body {
+                background: #05050a;
+            }
+                              
+            #my-loader {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            #my-loader img {
+                width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div id="my-loader">
+                <img src="/images/load.gif" alt="loading" className="mx-auto my-20" />
+           </div>
+        </div>
+        <script type="module" src="/src/main.jsx"></script>
+        <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+.aksharan
+{
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+}
+.aksharan h3
+{
+    color: #000;
+text-align: center;
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+}
+.aksharan p
+{
+    color: #BA0403;
+font-family: "Titillium Web";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+margin-bottom: 20px;
+}
+.imggg img
+{
+    width: 200px;
+height: 282px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+
+}
+.vannit
+{
+    border-radius: 7px;
+background: rgba(186, 4, 3, 0.77);
+color: #FFF;
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border: none;
+padding: 10px;
+}

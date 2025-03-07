@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px 25px 10px;
+}
+.slogo{
+    width: 122px;
+    height: 43.466px;
+    flex-shrink: 0;
+}

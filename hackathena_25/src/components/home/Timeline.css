@@ -1,0 +1,274 @@
+.timeline-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto;
+  padding: 40px 5%;
+  background: #ffffff;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(#000000, #BA0403);
+} */
+
+.item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.content-block {
+  border-radius: 4px;
+  flex: 1;
+}
+
+.style1 .content-block:first-child {
+  text-align: right;
+  order: 1;
+}
+
+.style1 .content-block:last-child {
+  text-align: left;
+  order: 2;
+}
+
+.style2 .content-block:first-child {
+  text-align: left;
+  order: 2;
+}
+
+.style2 .content-block:last-child {
+  text-align: right;
+  order: 1;
+}
+
+.event-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: #F5FEFD;
+  margin-bottom: 10px;
+  border: 2px solid #BA0403;
+  background: #000;
+  height: 64px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.event-date h2 {
+  font-family: 'Nico Moji', sans-serif;
+  flex-grow: 0;
+  margin: 30px;
+}
+
+.heading-decorative-poly-container {
+  display: flex;
+  margin-right: 0px;
+}
+
+.heading-decorative-poly {
+  display: inline-block;
+  background-color: #ff0000;
+  width: 10px;
+  height: 20px;
+  margin-right: 3px;
+  transform: skew(-20deg);
+}
+
+.event-date::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  /* background: linear-gradient(#000000, #BA0403); */
+  border-radius: 12px;
+}
+
+.event-title {
+  font-size: 32px;
+  color: #BA0403;
+  font-family: 'Nico Moji', sans-serif;
+  text-shadow: 3px 3px #000;
+  height: 156px;
+  line-height: 1;
+  margin: 0;
+  padding: 40px;
+  background: #101010;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+
+.event-title h2 {
+  margin: 0;
+  margin-top: 37px;
+  font-size: 32px;
+  align-self: center;
+  height: 64px;
+}
+
+.item-indicator {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 15px);
+  transform: translateY(100%);
+  z-index: 1;
+}
+
+.item-indicator-g {
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(#000000, #BA0403);
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 17px);
+  transform: translateY(80%);
+  z-index: 0;
+}
+
+.style1 .event-heading h2 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Nico Moji', sans-serif;
+  font-weight: 400;
+  text-align: left;
+
+}
+.style2 .event-heading h2 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Nico Moji', sans-serif;
+  font-weight: 400;
+  text-align: right;
+  margin-right: 70px;
+
+}
+
+.style1 .event-description p {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.style2 .event-description p {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-right: 60px;
+}
+
+
+.detail-box{
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+
+  .event-date, .event-title {
+    width: 100%;
+  }
+
+  .event-date h2 {
+    font-size: 1.3rem;
+  }
+
+  .event-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .event-heading h2, .event-description p {
+    font-size: 14px;
+  }
+
+  .item-content {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 20px; 
+  }
+  
+  .timeline:before {
+    display: none;
+  }
+
+  .item-content {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+    margin: 0;
+    padding:0;
+  }
+
+  .content-block {
+    width: 100%;
+    margin: 10px 0; 
+    /* padding: 15px;  */
+  }
+
+  .event-date, .event-title {
+    width: 100%;
+    max-width: none;
+    height: auto; 
+    padding: 15px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+    justify-content: center;
+    
+  }
+
+  .event-title {
+    padding:25px 15px; 
+  }
+
+  .event-date h2, .event-title h3 {
+    font-size: 1.2rem; 
+    margin: 0; 
+  }
+
+  .heading-decorative-poly-container {
+    display: none;
+  }
+
+  .event-title {
+    text-align: center;
+  }
+
+  .event-title h2 {
+    text-align: center;
+  }
+
+  .detail-box {
+    display: none;
+  }
+
+  .item-indicator, .item-indicator-g {
+    display: none;
+  }
+}

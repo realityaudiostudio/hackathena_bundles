@@ -1,0 +1,25 @@
+.custom-gif {
+  margin-left: auto; 
+  width: 35%;
+  height: 15%;
+  margin-top: -10%;  
+}
+.desc{
+  font-family: 'Roboto' ,sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .custom-gif {
+    display: none;
+  }
+  
+  .padding200{
+    padding-left: 80%;
+  }
+  .padding10{
+    padding-left: 13%;
+    padding-top: 5%;
+  }
+  
+ 
+}

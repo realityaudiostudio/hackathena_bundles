@@ -1,0 +1,56 @@
+.Panel{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.66);
+    box-shadow: 0px 4px 24.7px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4.099999904632568px);
+    width: 90%;
+    padding-bottom: 11px;
+    flex-shrink: 0;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    gap: 15px;
+}
+
+.bellicon{
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    margin-top: 25px;
+    margin-left: 22px ;
+}
+.ancontent{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 5px;
+}
+
+.ancontent h1{
+    color: #500000;
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.ancontent p{
+    color: #500000;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;  
+    margin:0%; 
+}
+
+.ancontent span{
+    color: #947070;
+    font-family: "Titillium Web";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,153 @@
+.swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .paaadam {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    background-color: rgb(204, 204, 204);
+  }
+  
+  /* .swiper-slide:nth-child(1n) {
+    background-color: rgb(206, 17, 17);
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  } */
+
+  .mySwiper{
+   margin-top: 50px;
+  }
+
+  .stallitemname{
+    margin-top:40px ;
+    margin-bottom: 0px;
+    color: #000;
+text-align: center;
+font-family: "Titillium Web";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+  }
+  .stallitemprice{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #BA0403;
+font-family: "Titillium Web";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+
+  .kada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.stallbtn{
+  border: none;
+    margin-bottom: 240px;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    width: 136.372px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .counter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .counter-container button {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .counter-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .counter-container p {
+    color:black;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  

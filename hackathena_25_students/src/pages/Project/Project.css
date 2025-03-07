@@ -1,0 +1,126 @@
+.addbtn{
+    align-self: flex-end;
+    border-radius: 7px;
+    background: rgba(186, 4, 3, 0.77); 
+    width: 136.372px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    color: #FFF;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 22px;
+    margin-bottom: 17px;
+    
+}
+
+.buttondiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.driver
+{
+    color: #BA0403;
+font-family: "Titillium Web";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+margin: 3px;
+}
+.workable
+{
+    border-radius: 16px;
+border: 1px solid rgba(142, 122, 122, 0.30);
+background: #FFF0F0;
+display: flex;
+margin: 9px;
+padding: 16px;
+padding-bottom: 24px;
+justify-content: space-between;
+align-items: center;
+
+}
+.usp
+{
+    color: #500000;
+font-family: "Titillium Web";
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 2px;
+
+}
+.usnb
+{
+    border-radius: 5px;
+background: rgba(186, 4, 3, 0.12);
+padding: 2px;
+width: min-content;
+}
+.wkt
+{
+    color: #BA0403;
+font-family: "Titillium Web";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+margin-top: 8px;
+
+}
+.wk1 a{
+    color: #500000;
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.editable
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ed_in
+{
+    margin-bottom: 10px;
+}
+.b1
+{
+    margin-left: 10px;
+}
+.muthey
+{
+    color: #500000;
+font-family: "Titillium Web";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+margin-top: 3px;
+}
+.nef
+{
+    color: #000;
+font-family: "Titillium Web";
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-align: center;
+}
+.allwork
+{
+    margin-bottom: 100px;
+}
